@@ -1,28 +1,52 @@
-# EESchema Netlist Version 1.1 created  Sat 26 Oct 2013 17:32:36 BST
+# EESchema Netlist Version 1.1 created  Tue 29 Oct 2013 11:21:19 GMT
 (
+ ( /526F97E6 $noname  K6 Z_MAX {Lib=CONN_2}
+  (    1 Z_MAX )
+  (    2 GND )
+ )
+ ( /526F97E2 $noname  K5 Z_MIN {Lib=CONN_2}
+  (    1 Z_MIN )
+  (    2 GND )
+ )
+ ( /526F97D6 $noname  K4 Y_MAX {Lib=CONN_2}
+  (    1 Y_MAX )
+  (    2 GND )
+ )
+ ( /526F97D4 $noname  K3 Y_MIN {Lib=CONN_2}
+  (    1 Y_MIN )
+  (    2 GND )
+ )
+ ( /526F97D0 $noname  K2 X_MAX {Lib=CONN_2}
+  (    1 X_MAX )
+  (    2 GND )
+ )
+ ( /526F97BE $noname  K1 X_MIN {Lib=CONN_2}
+  (    1 X_MIN )
+  (    2 GND )
+ )
  ( /526BE18D $noname  D3 LED {Lib=LED}
   (    1 VCC )
-  (    2 N-000085 )
+  (    2 N-000086 )
  )
  ( /526BE187 $noname  D4 LED {Lib=LED}
   (    1 VCC )
-  (    2 N-000078 )
+  (    2 N-000081 )
  )
  ( /526BE177 $noname  R12 220 {Lib=R}
-  (    1 N-000085 )
-  (    2 N-000086 )
+  (    1 N-000086 )
+  (    2 N-000087 )
  )
  ( /526BE16F $noname  R13 220 {Lib=R}
-  (    1 N-000078 )
-  (    2 N-000094 )
+  (    1 N-000081 )
+  (    2 N-000080 )
  )
  ( /526BE0BE $noname  C9 100nF {Lib=CSMALL}
-  (    1 N-000080 )
+  (    1 N-000079 )
   (    2 GND )
  )
  ( /526BDDA1 $noname  U2 FT232RL {Lib=FT232RL}
   (    1 MC_RX )
-  (    2 N-000068 )
+  (    2 N-000020 )
   (    3 ? )
   (    4 VCC )
   (    5 MC_TX )
@@ -34,15 +58,15 @@
   (   12 ? )
   (   13 ? )
   (   14 ? )
-  (   15 N-000079 )
-  (   16 N-000084 )
-  (   17 N-000080 )
+  (   15 N-000067 )
+  (   16 N-000085 )
+  (   17 N-000079 )
   (   18 GND )
   (   19 ? )
   (   20 VCC )
   (   21 GND )
-  (   22 N-000094 )
-  (   23 N-000086 )
+  (   22 N-000080 )
+  (   23 N-000087 )
   (   25 GND )
   (   26 GND )
   (   27 ? )
@@ -62,73 +86,73 @@
  )
  ( /524586E7 $noname  J1 USB_2_UPDATE {Lib=USB_2_UPDATE}
   (    1 VCC )
-  (    2 N-000084 )
-  (    3 N-000079 )
+  (    2 N-000085 )
+  (    3 N-000067 )
   (    4 GND )
   (    5 GND )
   (    6 GND )
  )
  ( /5242CC4A TO92  Q4 PN2222A {Lib=PN2222A}
   (    1 GND )
-  (    2 N-000019 )
-  (    3 N-000011 )
+  (    2 N-000015 )
+  (    3 N-000009 )
  )
  ( /5242CC41 TO92  Q3 PN2222A {Lib=PN2222A}
   (    1 GND )
-  (    2 N-000018 )
-  (    3 N-000076 )
+  (    2 N-000013 )
+  (    3 N-000077 )
  )
  ( /5242CB0D $noname  R19 10k {Lib=R}
-  (    1 N-000018 )
+  (    1 N-000013 )
   (    2 RELAY1 )
  )
  ( /5242CAFD $noname  R20 10k {Lib=R}
-  (    1 N-000019 )
+  (    1 N-000015 )
   (    2 RELAY2 )
  )
  ( /5242CAA5 $noname  D2 DIODE {Lib=DIODE}
-  (    1 N-000011 )
+  (    1 N-000009 )
   (    2 VCC )
  )
  ( /5242CA9A $noname  D1 DIODE {Lib=DIODE}
-  (    1 N-000076 )
+  (    1 N-000077 )
   (    2 VCC )
  )
  ( /5242CA5A $noname  P28 R2_IN {Lib=CONN_2}
-  (    1 N-000088 )
+  (    1 N-000100 )
   (    2 GND )
  )
  ( /5242CA43 $noname  P30 R2_OUT {Lib=CONN_2}
-  (    1 N-000077 )
+  (    1 N-000078 )
   (    2 GND )
  )
  ( /5242CA38 $noname  P27 R1_IN {Lib=CONN_2}
-  (    1 N-000014 )
+  (    1 N-000088 )
   (    2 GND )
  )
  ( /5242CA1D $noname  P29 R1_OUT {Lib=CONN_2}
-  (    1 N-000087 )
+  (    1 N-000011 )
   (    2 GND )
  )
  ( /5242C952 $noname  K8 RELAY_2RT {Lib=RELAY_2RT}
-  (    1 N-000077 )
+  (    1 N-000078 )
+  (    3 ? )
+  (    5 N-000100 )
+  (    8 VCC )
+  (    9 N-000009 )
+  (   12 N-000100 )
+  (   14 ? )
+  (   16 N-000078 )
+ )
+ ( /5242C8F1 $noname  K7 RELAY_2RT {Lib=RELAY_2RT}
+  (    1 N-000011 )
   (    3 ? )
   (    5 N-000088 )
   (    8 VCC )
-  (    9 N-000011 )
+  (    9 N-000077 )
   (   12 N-000088 )
   (   14 ? )
-  (   16 N-000077 )
- )
- ( /5242C8F1 $noname  K7 RELAY_2RT {Lib=RELAY_2RT}
-  (    1 N-000087 )
-  (    3 ? )
-  (    5 N-000014 )
-  (    8 VCC )
-  (    9 N-000076 )
-  (   12 N-000014 )
-  (   14 ? )
-  (   16 N-000087 )
+  (   16 N-000011 )
  )
  ( /5242C77C $noname  P26 5Volts {Lib=CONN_2}
   (    1 VCC )
@@ -140,11 +164,11 @@
  )
  ( /524079A6 $noname  P22 PIN_HEADER {Lib=CONN_7}
   (    1 VCC )
-  (    2 N-000031 )
-  (    3 N-000034 )
-  (    4 N-000037 )
-  (    5 N-000040 )
-  (    6 N-000022 )
+  (    2 N-000027 )
+  (    3 N-000030 )
+  (    4 N-000032 )
+  (    5 N-000034 )
+  (    6 N-000025 )
   (    7 GND )
  )
  ( /52407913 $noname  R16 1k5 {Lib=R}
@@ -198,45 +222,45 @@
   (    2 GND )
  )
  ( /5240583C $noname  R3 10k {Lib=R}
-  (    1 N-000081 )
+  (    1 N-000082 )
   (    2 GND )
  )
  ( /5240582E $noname  Q1 MOSFET_N {Lib=MOSFET_N}
-  (    D N-000002 )
-  (    G N-000081 )
+  (    D N-000003 )
+  (    G N-000082 )
   (    S GND )
  )
  ( /52405829 $noname  P3 M1_OUT {Lib=CONN_2}
-  (    1 N-000001 )
-  (    2 N-000002 )
+  (    1 N-000002 )
+  (    2 N-000003 )
  )
  ( /52405821 $noname  P2 M1_IN {Lib=CONN_2}
-  (    1 N-000001 )
+  (    1 N-000002 )
   (    2 GND )
  )
  ( /52405805 $noname  R2 10R {Lib=R}
-  (    1 N-000081 )
+  (    1 N-000082 )
   (    2 MOS_DRIVE1 )
  )
  ( /524056DD $noname  P5 M2_OUT {Lib=CONN_2}
-  (    1 N-000005 )
+  (    1 N-000006 )
   (    2 N-000007 )
  )
  ( /524056D4 $noname  P4 M2_IN {Lib=CONN_2}
-  (    1 N-000005 )
+  (    1 N-000006 )
   (    2 GND )
  )
  ( /52405691 $noname  R4 10R {Lib=R}
-  (    1 N-000082 )
+  (    1 N-000083 )
   (    2 MOS_DRIVE2 )
  )
  ( /52405688 $noname  R5 10k {Lib=R}
-  (    1 N-000082 )
+  (    1 N-000083 )
   (    2 GND )
  )
  ( /5240564A $noname  Q2 MOSFET_N {Lib=MOSFET_N}
   (    D N-000007 )
-  (    G N-000082 )
+  (    G N-000083 )
   (    S GND )
  )
  ( /524054F1 $noname  C5 100nF {Lib=CSMALL}
@@ -256,43 +280,43 @@
   (    2 VCC )
  )
  ( /52404DF7 $noname  P8 Z_AXIS {Lib=CONN_4}
-  (    1 N-000053 )
-  (    2 N-000054 )
-  (    3 N-000055 )
-  (    4 N-000056 )
+  (    1 N-000051 )
+  (    2 N-000052 )
+  (    3 N-000053 )
+  (    4 N-000054 )
  )
  ( /52404DF1 $noname  P11 CONN_4 {Lib=CONN_4}
-  (    1 N-000053 )
-  (    2 N-000054 )
-  (    3 N-000055 )
-  (    4 N-000056 )
+  (    1 N-000051 )
+  (    2 N-000052 )
+  (    3 N-000053 )
+  (    4 N-000054 )
  )
  ( /52404DE1 $noname  P7 Y_AXIS {Lib=CONN_4}
-  (    1 N-000057 )
-  (    2 N-000058 )
-  (    3 N-000059 )
-  (    4 N-000060 )
+  (    1 N-000055 )
+  (    2 N-000056 )
+  (    3 N-000057 )
+  (    4 N-000058 )
  )
  ( /52404DDB $noname  P10 CONN_4 {Lib=CONN_4}
-  (    1 N-000057 )
-  (    2 N-000058 )
-  (    3 N-000059 )
-  (    4 N-000060 )
+  (    1 N-000055 )
+  (    2 N-000056 )
+  (    3 N-000057 )
+  (    4 N-000058 )
  )
  ( /52404DD3 $noname  P6 X_AXIS {Lib=CONN_4}
-  (    1 N-000061 )
-  (    2 N-000062 )
-  (    3 N-000063 )
-  (    4 N-000064 )
+  (    1 N-000046 )
+  (    2 N-000047 )
+  (    3 N-000048 )
+  (    4 N-000049 )
  )
  ( /52404DB9 $noname  P9 CONN_4 {Lib=CONN_4}
-  (    1 N-000061 )
-  (    2 N-000062 )
-  (    3 N-000063 )
-  (    4 N-000064 )
+  (    1 N-000046 )
+  (    2 N-000047 )
+  (    3 N-000048 )
+  (    4 N-000049 )
  )
  ( /52404CC6 $noname  R11 100k {Lib=R}
-  (    1 N-000065 )
+  (    1 N-000076 )
   (    2 GND )
  )
  ( /52404CC1 $noname  R10 100k {Lib=R}
@@ -300,90 +324,90 @@
   (    2 GND )
  )
  ( /52404C91 $noname  R9 100k {Lib=R}
-  (    1 N-000049 )
+  (    1 N-000050 )
   (    2 GND )
  )
  ( /52404C7E $noname  P20 CONN_3X2 {Lib=CONN_3X2}
-  (    1 N-000065 )
+  (    1 N-000076 )
   (    2 VCC )
-  (    3 N-000050 )
+  (    3 N-000063 )
   (    4 VCC )
-  (    5 N-000051 )
+  (    5 N-000064 )
   (    6 VCC )
  )
  ( /52404C6F $noname  P19 CONN_3X2 {Lib=CONN_3X2}
   (    1 N-000075 )
   (    2 VCC )
-  (    3 N-000069 )
+  (    3 N-000068 )
   (    4 VCC )
-  (    5 N-000070 )
+  (    5 N-000069 )
   (    6 VCC )
  )
  ( /52404BE1 $noname  P18 CONN_3X2 {Lib=CONN_3X2}
-  (    1 N-000049 )
+  (    1 N-000050 )
   (    2 VCC )
-  (    3 N-000072 )
+  (    3 N-000073 )
   (    4 VCC )
-  (    5 N-000073 )
+  (    5 N-000074 )
   (    6 VCC )
  )
  ( /52404B88 $noname  P17 CONN_8 {Lib=CONN_8}
   (    1 Z_STEP_ENABLE )
-  (    2 N-000065 )
-  (    3 N-000050 )
-  (    4 N-000051 )
-  (    5 N-000052 )
-  (    6 N-000052 )
+  (    2 N-000076 )
+  (    3 N-000063 )
+  (    4 N-000064 )
+  (    5 N-000065 )
+  (    6 N-000065 )
   (    7 Z_STEP )
   (    8 Z_DIRECTION )
  )
  ( /52404B84 $noname  P16 CONN_8 {Lib=CONN_8}
   (    1 Y_STEP_ENABLE )
   (    2 N-000075 )
-  (    3 N-000069 )
-  (    4 N-000070 )
-  (    5 N-000071 )
-  (    6 N-000071 )
+  (    3 N-000068 )
+  (    4 N-000069 )
+  (    5 N-000070 )
+  (    6 N-000070 )
   (    7 Y_STEP )
   (    8 Y_DIRECTION )
  )
  ( /52404B7F $noname  P15 CONN_8 {Lib=CONN_8}
   (    1 X_STEP_ENABLE )
-  (    2 N-000049 )
-  (    3 N-000072 )
-  (    4 N-000073 )
-  (    5 N-000074 )
-  (    6 N-000074 )
+  (    2 N-000050 )
+  (    3 N-000073 )
+  (    4 N-000074 )
+  (    5 N-000060 )
+  (    6 N-000060 )
   (    7 X_STEP )
   (    8 X_DIRECTION )
  )
  ( /52404B70 $noname  P14 CONN_8 {Lib=CONN_8}
   (    1 VPP )
   (    2 GND )
-  (    3 N-000053 )
-  (    4 N-000054 )
-  (    5 N-000055 )
-  (    6 N-000056 )
+  (    3 N-000051 )
+  (    4 N-000052 )
+  (    5 N-000053 )
+  (    6 N-000054 )
   (    7 VCC )
   (    8 GND )
  )
  ( /52404B6B $noname  P13 CONN_8 {Lib=CONN_8}
   (    1 VPP )
   (    2 GND )
-  (    3 N-000057 )
-  (    4 N-000058 )
-  (    5 N-000059 )
-  (    6 N-000060 )
+  (    3 N-000055 )
+  (    4 N-000056 )
+  (    5 N-000057 )
+  (    6 N-000058 )
   (    7 VCC )
   (    8 GND )
  )
  ( /52404B5F $noname  P12 CONN_8 {Lib=CONN_8}
   (    1 VPP )
   (    2 GND )
-  (    3 N-000061 )
-  (    4 N-000062 )
-  (    5 N-000063 )
-  (    6 N-000064 )
+  (    3 N-000046 )
+  (    4 N-000047 )
+  (    5 N-000048 )
+  (    6 N-000049 )
   (    7 VCC )
   (    8 GND )
  )
@@ -397,41 +421,11 @@
  )
  ( /523F03E2 $noname  C8 100nF {Lib=CSMALL}
   (    1 RST )
-  (    2 N-000068 )
+  (    2 N-000020 )
  )
  ( /523F03DB $noname  C6 100nF {Lib=CSMALL}
   (    1 VCC )
   (    2 GND )
- )
- ( /523EFFF6 $noname  K6 Z_MAX {Lib=CONN_3}
-  (    1 VCC )
-  (    2 Z_MAX )
-  (    3 GND )
- )
- ( /523EFFED $noname  K5 Z_MIN {Lib=CONN_3}
-  (    1 VCC )
-  (    2 Z_MIN )
-  (    3 GND )
- )
- ( /523EFFE8 $noname  K4 Y_MAX {Lib=CONN_3}
-  (    1 VCC )
-  (    2 Y_MAX )
-  (    3 GND )
- )
- ( /523EFF98 $noname  K3 Y_MIN {Lib=CONN_3}
-  (    1 VCC )
-  (    2 Y_MIN )
-  (    3 GND )
- )
- ( /523EFF92 $noname  K2 X_MAX {Lib=CONN_3}
-  (    1 VCC )
-  (    2 X_MAX )
-  (    3 GND )
- )
- ( /523EFF8C $noname  K1 X_MIN {Lib=CONN_3}
-  (    1 VCC )
-  (    2 X_MIN )
-  (    3 GND )
  )
  ( /523EFED8 $noname  C2 100nF {Lib=CSMALL}
   (    1 +12V )
@@ -454,16 +448,16 @@
   (    2 GND )
  )
  ( /523EF260 $noname  C3 22pF {Lib=CSMALL}
-  (    1 N-000044 )
+  (    1 N-000039 )
   (    2 GND )
  )
  ( /523EF259 $noname  C1 22pF {Lib=CSMALL}
-  (    1 N-000043 )
+  (    1 N-000037 )
   (    2 GND )
  )
  ( /523EF233 $noname  X1 CRYSTAL {Lib=CRYSTAL}
-  (    1 N-000043 )
-  (    2 N-000044 )
+  (    1 N-000037 )
+  (    2 N-000039 )
  )
  ( /523EF219 $noname  U1 7805 {Lib=7805}
   (  GND GND )
@@ -482,15 +476,15 @@
   (    9 RST )
   (   10 VCC )
   (   11 GND )
-  (   12 N-000043 )
-  (   13 N-000044 )
+  (   12 N-000037 )
+  (   13 N-000039 )
   (   14 MC_RX )
   (   15 MC_TX )
-  (   16 N-000031 )
-  (   17 N-000034 )
-  (   18 N-000037 )
-  (   19 N-000040 )
-  (   20 N-000022 )
+  (   16 N-000027 )
+  (   17 N-000030 )
+  (   18 N-000032 )
+  (   19 N-000034 )
+  (   20 N-000025 )
   (   21 Z_PROBE )
   (   22 I2C_SCL )
   (   23 I2C_SDA )
@@ -757,409 +751,403 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "" ""
- P3 1
- P2 1
+Net 1 "VCC" "VCC"
+ C7 1
+ C11 1
+ D2 2
+ D1 2
+ K8 8
+ C6 1
+ U2 20
+ P12 7
+ P19 6
+ P18 2
+ P18 4
+ P18 6
+ C5 1
+ R17 2
+ R18 2
+ R1 1
+ K7 8
+ R16 2
+ P23 1
+ P1 2
+ P20 2
+ P20 4
+ P20 6
+ P19 2
+ P19 4
+ C14 1
+ C13 1
+ C4 1
+ U1 VO
+ P22 1
+ IC1 10
+ P26 1
+ IC1 32
+ D3 1
+ J1 1
+ R8 2
+ R7 2
+ R6 2
+ P14 7
+ IC1 30
+ P13 7
+ U2 4
+ D4 1
 Net 2 "" ""
- Q1 D
+ P2 1
+ P3 1
+Net 3 "" ""
  P3 2
-Net 3 "MOS_DRIVE1" "MOS_DRIVE1"
- IC1 5
- R2 2
-Net 4 "MOS_DRIVE2" "MOS_DRIVE2"
- IC1 4
- R4 2
-Net 5 "" ""
- P5 1
- P4 1
-Net 6 "GND" "GND"
- P21 2
- P23 4
- P22 7
- P25 2
- R9 2
- R11 2
- R10 2
- K6 3
- P13 8
- P12 2
- P12 8
- K4 3
- IC1 31
- C1 2
- K2 3
- K3 3
- C4 2
- K5 3
- C3 2
- U1 GND
- C2 2
- IC1 11
- P24 2
- C6 2
- P1 6
- C11 2
- K1 3
- C7 2
- P14 2
- P14 8
+ Q1 D
+Net 4 "GND" "GND"
  P13 2
+ P14 8
+ P14 2
+ R9 2
+ R10 2
+ P13 8
+ R11 2
+ U1 GND
+ C1 2
+ C3 2
+ P12 8
+ P12 2
+ U2 25
+ K1 2
+ K2 2
+ K3 2
+ K4 2
+ K5 2
+ P31 1
+ P32 1
+ P33 1
+ P34 1
+ U2 18
+ U2 26
+ C9 2
  U2 21
  U2 7
- C9 2
+ K6 2
+ R3 2
+ C5 2
+ Q2 S
+ R5 2
+ P4 2
+ C17 2
+ P24 2
+ C15 2
+ P23 4
+ C16 2
+ P30 2
  J1 6
  J1 5
  J1 4
- R3 2
- Q1 S
- P2 2
- P4 2
- R5 2
- Q2 S
- C16 2
- C15 2
- C17 2
- C14 2
- C13 2
- C12 2
- P28 2
- P30 2
- P27 2
  P29 2
- P31 1
- P26 2
+ P28 2
  Q4 1
+ IC1 11
+ P27 2
  Q3 1
- U2 26
- U2 25
- P33 1
- U2 18
- P34 1
- P32 1
- C5 2
-Net 7 "" ""
- P5 2
- Q2 D
-Net 8 "VPP" "VPP"
- P12 1
+ IC1 31
+ P2 2
+ Q1 S
+ P22 7
+ C2 2
+ P1 6
+ C12 2
+ C13 2
+ C4 2
+ C14 2
+ C6 2
+ P26 2
+ C7 2
+ P21 2
+ P25 2
+ C11 2
+Net 5 "VPP" "VPP"
  P13 1
- P14 1
- C15 1
  P21 1
- C17 1
+ C15 1
  C16 1
-Net 9 "VCC" "VCC"
- P26 1
- P14 7
- P1 2
- D2 2
- C6 1
- P12 7
- P13 7
- C11 1
- C7 1
- K8 8
- K7 8
- P22 1
- R18 2
- R17 2
- P23 1
- D1 2
- R16 2
- P20 6
- P20 4
- P20 2
- P19 6
- K6 1
- P18 6
- P18 4
- U1 VO
- P18 2
- P19 4
- P19 2
- C13 1
- R8 2
- K1 1
- C14 1
- IC1 10
- IC1 32
- IC1 30
- R7 2
- K2 1
- K3 1
- C4 1
- K4 1
- R6 2
- K5 1
- D3 1
- D4 1
- U2 4
- J1 1
- C5 1
- U2 20
- R1 1
-Net 11 "" ""
+ C17 1
+ P12 1
+ P14 1
+Net 6 "" ""
+ P4 1
+ P5 1
+Net 7 "" ""
+ Q2 D
+ P5 2
+Net 9 "" ""
  D2 1
- K8 9
  Q4 3
-Net 14 "" ""
- K7 5
- P27 1
- K7 12
-Net 16 "+12V" "+12V"
- C12 1
- C2 1
- U1 VI
- P25 1
-Net 17 "RELAY1" "RELAY1"
- R19 2
- IC1 2
-Net 18 "" ""
+ K8 9
+Net 11 "" ""
+ P29 1
+ K7 16
+ K7 1
+Net 13 "" ""
  Q3 2
  R19 1
-Net 19 "" ""
+Net 14 "RELAY1" "RELAY1"
+ R19 2
+ IC1 2
+Net 15 "" ""
  R20 1
  Q4 2
-Net 20 "RELAY2" "RELAY2"
- IC1 3
+Net 16 "RELAY2" "RELAY2"
  R20 2
-Net 21 "RST" "RST"
- IC1 9
- C8 1
- P1 5
+ IC1 3
+Net 18 "+12V" "+12V"
+ U1 VI
+ C12 1
+ P25 1
+ C2 1
+Net 19 "RST" "RST"
  R1 2
-Net 22 "" ""
- IC1 20
- P22 6
-Net 23 "Z_MIN" "Z_MIN"
+ P1 5
+ C8 1
+ IC1 9
+Net 20 "" ""
+ U2 2
+ C8 2
+Net 21 "Z_MIN" "Z_MIN"
  IC1 40
- K5 2
-Net 24 "I2C_SCL" "I2C_SCL"
+ K5 1
+Net 22 "I2C_SCL" "I2C_SCL"
+ P23 2
  IC1 22
  R17 1
- P23 2
-Net 25 "I2C_SDA" "I2C_SDA"
- IC1 23
+Net 23 "I2C_SDA" "I2C_SDA"
  R18 1
+ IC1 23
  P23 3
-Net 26 "X_DIRECTION" "X_DIRECTION"
- P15 8
- IC1 33
-Net 27 "Z_DIRECTION" "Z_DIRECTION"
- IC1 24
- P17 8
-Net 28 "X_STEP" "X_STEP"
- IC1 34
+Net 24 "X_STEP" "X_STEP"
  P15 7
-Net 29 "Z_STEP" "Z_STEP"
- IC1 25
- P17 7
-Net 30 "X_STEP_ENABLE" "X_STEP_ENABLE"
- P15 1
- R6 1
+ IC1 34
+Net 25 "" ""
+ IC1 20
+ P22 6
+Net 26 "X_STEP_ENABLE" "X_STEP_ENABLE"
  IC1 35
-Net 31 "" ""
- IC1 16
+ R6 1
+ P15 1
+Net 27 "" ""
  P22 2
-Net 32 "Z_STEP_ENABLE" "Z_STEP_ENABLE"
- IC1 26
- P17 1
+ IC1 16
+Net 28 "Z_STEP_ENABLE" "Z_STEP_ENABLE"
  R8 1
-Net 33 "X_MIN" "X_MIN"
+ P17 1
+ IC1 26
+Net 29 "X_MIN" "X_MIN"
+ K1 1
  IC1 36
- K1 2
-Net 34 "" ""
- IC1 17
+Net 30 "" ""
  P22 3
-Net 35 "Y_DIRECTION" "Y_DIRECTION"
- P16 8
- IC1 27
-Net 36 "X_MAX" "X_MAX"
- K2 2
+ IC1 17
+Net 31 "X_MAX" "X_MAX"
+ K2 1
  IC1 37
-Net 37 "" ""
- P22 4
+Net 32 "" ""
  IC1 18
-Net 38 "Y_STEP" "Y_STEP"
- P16 7
- IC1 28
-Net 39 "Y_MIN" "Y_MIN"
+ P22 4
+Net 33 "Y_MIN" "Y_MIN"
+ K3 1
  IC1 38
- K3 2
-Net 40 "" ""
- P22 5
+Net 34 "" ""
  IC1 19
-Net 41 "Y_STEP_ENABLE" "Y_STEP_ENABLE"
- P16 1
+ P22 5
+Net 35 "Y_STEP_ENABLE" "Y_STEP_ENABLE"
  IC1 29
+ P16 1
  R7 1
-Net 42 "Y_MAX" "Y_MAX"
+Net 36 "Y_MAX" "Y_MAX"
  IC1 39
- K4 2
-Net 43 "" ""
+ K4 1
+Net 37 "" ""
+ X1 1
  IC1 12
  C1 1
- X1 1
-Net 44 "" ""
- C3 1
- X1 2
+Net 38 "MC_RX" "MC_RX"
+ U2 1
+ IC1 14
+Net 39 "" ""
  IC1 13
-Net 45 "Z_MAX" "Z_MAX"
- K6 2
+ X1 2
+ C3 1
+Net 40 "Z_MAX" "Z_MAX"
+ K6 1
  IC1 1
-Net 46 "MOSI" "MOSI"
- P1 4
+Net 41 "MOS_DRIVE2" "MOS_DRIVE2"
+ IC1 4
+ R4 2
+Net 42 "MOS_DRIVE1" "MOS_DRIVE1"
+ R2 2
+ IC1 5
+Net 43 "MOSI" "MOSI"
  IC1 6
-Net 47 "MISO" "MISO"
+ P1 4
+Net 44 "MISO" "MISO"
  P1 1
  IC1 7
-Net 48 "SCK" "SCK"
- P1 3
+Net 45 "SCK" "SCK"
  IC1 8
+ P1 3
+Net 46 "" ""
+ P6 1
+ P12 3
+ P9 1
+Net 47 "" ""
+ P12 4
+ P9 2
+ P6 2
+Net 48 "" ""
+ P6 3
+ P12 5
+ P9 3
 Net 49 "" ""
- P18 1
+ P12 6
+ P6 4
+ P9 4
+Net 50 "" ""
  R9 1
  P15 2
-Net 50 "" ""
- P20 3
- P17 3
+ P18 1
 Net 51 "" ""
- P20 5
- P17 4
-Net 52 "" ""
- P17 5
- P17 6
-Net 53 "" ""
- P11 1
  P8 1
  P14 3
-Net 54 "" ""
+ P11 1
+Net 52 "" ""
+ P14 4
  P8 2
  P11 2
- P14 4
-Net 55 "" ""
+Net 53 "" ""
  P8 3
  P11 3
  P14 5
-Net 56 "" ""
+Net 54 "" ""
  P11 4
  P8 4
  P14 6
-Net 57 "" ""
+Net 55 "" ""
+ P10 1
  P7 1
  P13 3
- P10 1
-Net 58 "" ""
- P10 2
- P13 4
+Net 56 "" ""
  P7 2
-Net 59 "" ""
- P10 3
+ P13 4
+ P10 2
+Net 57 "" ""
  P7 3
+ P10 3
  P13 5
-Net 60 "" ""
- P10 4
+Net 58 "" ""
  P7 4
+ P10 4
  P13 6
-Net 61 "" ""
- P9 1
- P12 3
- P6 1
-Net 62 "" ""
- P9 2
- P12 4
- P6 2
-Net 63 "" ""
- P12 5
- P9 3
- P6 3
-Net 64 "" ""
- P9 4
- P12 6
- P6 4
-Net 65 "" ""
- P17 2
- P20 1
- R11 1
-Net 66 "MC_TX" "MC_TX"
- IC1 15
- U2 5
-Net 67 "MC_RX" "MC_RX"
- IC1 14
- U2 1
-Net 68 "" ""
- C8 2
- U2 2
-Net 69 "" ""
- P19 3
- P16 3
-Net 70 "" ""
- P16 4
- P19 5
-Net 71 "" ""
- P16 5
- P16 6
-Net 72 "" ""
- P15 3
- P18 3
-Net 73 "" ""
- P15 4
- P18 5
-Net 74 "" ""
+Net 59 "X_DIRECTION" "X_DIRECTION"
+ IC1 33
+ P15 8
+Net 60 "" ""
  P15 6
  P15 5
-Net 75 "" ""
- R10 1
- P16 2
- P19 1
-Net 76 "" ""
- Q3 3
- D1 1
- K7 9
-Net 77 "" ""
- P30 1
- K8 1
- K8 16
-Net 78 "" ""
- R13 1
- D4 2
-Net 79 "" ""
+Net 61 "MC_TX" "MC_TX"
+ U2 5
+ IC1 15
+Net 62 "Z_DIRECTION" "Z_DIRECTION"
+ IC1 24
+ P17 8
+Net 63 "" ""
+ P17 3
+ P20 3
+Net 64 "" ""
+ P20 5
+ P17 4
+Net 65 "" ""
+ P17 6
+ P17 5
+Net 66 "Z_STEP" "Z_STEP"
+ IC1 25
+ P17 7
+Net 67 "" ""
  U2 15
  J1 3
-Net 80 "" ""
+Net 68 "" ""
+ P16 3
+ P19 3
+Net 69 "" ""
+ P16 4
+ P19 5
+Net 70 "" ""
+ P16 5
+ P16 6
+Net 71 "Y_STEP" "Y_STEP"
+ IC1 28
+ P16 7
+Net 72 "Y_DIRECTION" "Y_DIRECTION"
+ IC1 27
+ P16 8
+Net 73 "" ""
+ P18 3
+ P15 3
+Net 74 "" ""
+ P15 4
+ P18 5
+Net 75 "" ""
+ P19 1
+ P16 2
+ R10 1
+Net 76 "" ""
+ R11 1
+ P20 1
+ P17 2
+Net 77 "" ""
+ D1 1
+ Q3 3
+ K7 9
+Net 78 "" ""
+ K8 1
+ P30 1
+ K8 16
+Net 79 "" ""
  U2 17
  C9 1
+Net 80 "" ""
+ U2 22
+ R13 2
 Net 81 "" ""
+ D4 2
+ R13 1
+Net 82 "" ""
+ R3 1
  Q1 G
  R2 1
- R3 1
-Net 82 "" ""
- R4 1
- R5 1
+Net 83 "" ""
  Q2 G
-Net 83 "Z_PROBE" "Z_PROBE"
- IC1 21
+ R5 1
+ R4 1
+Net 84 "Z_PROBE" "Z_PROBE"
  P24 1
  R16 1
-Net 84 "" ""
+ IC1 21
+Net 85 "" ""
  U2 16
  J1 2
-Net 85 "" ""
+Net 86 "" ""
  R12 1
  D3 2
-Net 86 "" ""
+Net 87 "" ""
  U2 23
  R12 2
-Net 87 "" ""
- P29 1
- K7 1
- K7 16
 Net 88 "" ""
- K8 12
- K8 5
+ K7 5
+ P27 1
+ K7 12
+Net 100 "" ""
  P28 1
-Net 94 "" ""
- R13 2
- U2 22
+ K8 5
+ K8 12
 }
 #End

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 26 Oct 2013 16:47:19 BST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Tue 29 Oct 2013 11:21:11 GMT
 
 BeginCmp
 TimeStamp = /523EF259;
@@ -158,42 +158,42 @@ BeginCmp
 TimeStamp = /523EFF8C;
 Reference = K1;
 ValeurCmp = X_MIN;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /523EFF92;
 Reference = K2;
 ValeurCmp = X_MAX;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /523EFF98;
 Reference = K3;
 ValeurCmp = Y_MIN;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /523EFFE8;
 Reference = K4;
 ValeurCmp = Y_MAX;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /523EFFED;
 Reference = K5;
 ValeurCmp = Z_MIN;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /523EFFF6;
 Reference = K6;
 ValeurCmp = Z_MAX;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -564,13 +564,6 @@ BeginCmp
 TimeStamp = /526BE16F;
 Reference = R13;
 ValeurCmp = 220;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /523F08F6;
-Reference = R14;
-ValeurCmp = 4k7;
 IdModule  = R3;
 EndCmp
 
