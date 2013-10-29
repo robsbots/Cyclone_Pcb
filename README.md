@@ -2,6 +2,10 @@ Cyclone PCB factory controller board
 ==  
 
 This controller is designed to control the Cyclone pcb factory.  
+The design files where created using KiCad. An open source Schematic capture and layout package.  
+You will need this software to open the design files, but pdf and gerber files are available in  
+the output directory  
+
 Version: **Alpha 0.4**  
 
 <https://groups.google.com/forum/#!forum/cyclone-pcb-factory>  
