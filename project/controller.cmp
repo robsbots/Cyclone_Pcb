@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Wed 02 Oct 2013 18:49:54 BST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 26 Oct 2013 16:47:19 BST
 
 BeginCmp
 TimeStamp = /523EF259;
@@ -57,16 +57,9 @@ IdModule  = C1;
 EndCmp
 
 BeginCmp
-TimeStamp = /523F03F0;
+TimeStamp = /526BE0BE;
 Reference = C9;
-ValeurCmp = 47pF;
-IdModule  = C1;
-EndCmp
-
-BeginCmp
-TimeStamp = /523F03E9;
-Reference = C10;
-ValeurCmp = 47pF;
+ValeurCmp = 100nF;
 IdModule  = C1;
 EndCmp
 
@@ -131,6 +124,20 @@ TimeStamp = /5242CAA5;
 Reference = D2;
 ValeurCmp = DIODE;
 IdModule  = D4;
+EndCmp
+
+BeginCmp
+TimeStamp = /526BE18D;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /526BE187;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
 EndCmp
 
 BeginCmp
@@ -547,16 +554,16 @@ IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /523F03A9;
+TimeStamp = /526BE177;
 Reference = R12;
-ValeurCmp = 27R;
+ValeurCmp = 220;
 IdModule  = R3;
 EndCmp
 
 BeginCmp
-TimeStamp = /523F03B3;
+TimeStamp = /526BE16F;
 Reference = R13;
-ValeurCmp = 27R;
+ValeurCmp = 220;
 IdModule  = R3;
 EndCmp
 
@@ -564,13 +571,6 @@ BeginCmp
 TimeStamp = /523F08F6;
 Reference = R14;
 ValeurCmp = 4k7;
-IdModule  = R3;
-EndCmp
-
-BeginCmp
-TimeStamp = /523F08FA;
-Reference = R15;
-ValeurCmp = 10k;
 IdModule  = R3;
 EndCmp
 
@@ -617,10 +617,10 @@ IdModule  = TO220_VERT_VREG;
 EndCmp
 
 BeginCmp
-TimeStamp = /523F0300;
+TimeStamp = /526BDDA1;
 Reference = U2;
-ValeurCmp = FT230X;
-IdModule  = ssop-16;
+ValeurCmp = FT232RL;
+IdModule  = SSOP28;
 EndCmp
 
 BeginCmp

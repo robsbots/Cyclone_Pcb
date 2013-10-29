@@ -1,4 +1,4 @@
-update=Mon 30 Sep 2013 18:38:11 BST
+update=Sat 26 Oct 2013 16:16:47 BST
 version=1
 last_client=eeschema
 [general]
@@ -102,3 +102,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=rob
 LibName32=FT230X
+LibName33=ft232rl
